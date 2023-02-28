@@ -13,11 +13,11 @@ public class JfinalConfig extends JFinalConfig {
             // me.add("/hello", HelloController.class);
 
             // 使用路由扫描，参数 "demo." 表示只扫描 demo 包及其子包下的路由
-            me.scan("src.");
+            me.scan("controller.");
         }
 
         public void configEngine(Engine me) {
-            me.addSharedFunction("/app/login.html");
+            me.addSharedFunction("/app/12.vue");
         }
         public void configPlugin(Plugins me) {}
         public void configInterceptor(Interceptors me) {}

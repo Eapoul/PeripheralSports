@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@surely-vue/table": "^3.0.0"
+  }
+}

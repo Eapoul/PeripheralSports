@@ -1,8 +1,9 @@
 # 配置 undertow
 
-undertow.devMode=true
-undertow.host=0.0.0.0
+# undertow.devMode=true
+undertow.host=localhost
 undertow.port=81
+undertow.contextPath=/
 
 # 打成 fatjar 部署的项目开启下面的配置
 # undertow.resourcePath=src/main/app, classpath:app
@@ -56,7 +57,7 @@ undertow.http2.enable=true
 # undertow.http.disable=false
 
 # js、css 等等 web 资源存放的目录，以 "classpath:" 打头的配置将从 class path 和 jar 中获取资源
-undertow.resourcePath=webapp, src/main, classpath:static
+undertow.resourcePath=app, src/main, classpath:static
 
 
 
